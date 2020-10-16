@@ -21,9 +21,9 @@ function multiply(a, b){
 
 function power(a, b){
     x = a;
-    y = a;
+    z = a;
     for (let i = 1; i < b; i++){
-        multiply(x, y)
+        multiply(x, z)
     }
     print();
     return x;
